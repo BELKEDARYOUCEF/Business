@@ -1,0 +1,162 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  font-family: 'Arial', sans-serif;
+    /*background-color: black;*/
+}
+/*body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: radial-gradient(circle, #1e1e1e, #111111);
+            font-family: 'Arial', sans-serif;
+        }*/
+#Navigation{
+    height : 110px;
+    width : 100%;
+    background-image: url('../Img_Video/Img/fond3.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex; /* Affiche les éléments horizontalement */
+  align-items: center; /* Aligne verticalement au centre */
+  justify-content: space-between; /* Espace entre les éléments */
+  position: fixed; /* Rend la barre collée en haut */
+  top: 0; /* Place la barre tout en haut de la page */
+  /*z-index: 1000; /* Assure qu'elle soit au-dessus des autres éléments */
+  }
+  #Navigation img {
+    margin-left: 10px; /* Espacement à gauche de l'image */
+  }
+  #Navigation ul {
+    list-style-type: none; /* Supprime les puces */
+    display: flex; /* Aligne horizontalement */
+    margin: 0;
+    padding: 0;
+  }
+  #Navigation ul li {
+    margin: 0 15px; /* Espacement entre les items */
+  }
+  #Midpage {
+    background-color: #181818;
+    /*background-color: rgb(221, 221, 221);
+    /*background-color: #f4f4f4;
+    /*background-image: url('../Img_Video/Img/fondbleu.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /*background: radial-gradient(circle, #140857d3, #040355);
+    /*background-color: rgb(17, 17, 118);*/
+    margin-top: 110px; /* Décale les divisions sous la navigation */
+    width: 100%;	
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start; /* Alignement en haut des enfants */
+  }
+  #Aside {
+    position: fixed; /* Fixe la barre latérale */
+    width: 20%;
+    /*height: calc(100vh - 110px); /* Ajuste la hauteur pour prendre tout l'espace visible sous la navigation */
+    position: sticky; /* Maintient la position lors du défilement */
+    top: 110px; /* Fixe l'élément au haut de la page */
+    left: 0; /* Fixe à gauche de la page */
+    height: calc(100vh - 110px); /* Ajuste la hauteur pour prendre tout l'espace visible sous la navigation */
+    border-right: 2px solid #ccc; /* Ligne verticale à droite */
+    background-color: #f4f4f4; /* Couleur d'arrière-plan */
+    /*background: radial-gradient(circle, #1e1e1e, #111111);*/
+    font-family: 'Arial', sans-serif;
+    overflow-y: auto; /* Permet un défilement si le contenu est plus grand */
+  }
+  #button {
+    font-size: 20px; /* Texte plus grand */
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #FF5722, #FFC107); /* Dégradé orange-jaune */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+button{
+  font-family: 'Arial', sans-serif;
+}
+#button:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Accentuation de l'ombre*/ 
+    cursor: pointer;
+}
+#IMPORTANT {
+  display: none;
+}
+#I-THE_BUSINESS {
+  display: none;
+}
+#II-THE_PRODUCT {
+  display: none;
+}
+#III-THE_STORE{
+  display: none;
+}
+#IV-THE_LANDER{
+  display: none;
+}
+#V-THE_AD{
+  display: none;
+}
+#VI-MEDIA_BUYING{
+  display: none;
+}
+#Number2{
+  display: none;
+}
+#VIII-SCALING{
+  display: none;
+}
+#AL_BIDAYA{
+  display: none;
+}
+#Contenu{
+  width : 70%; 
+  justify-content : space-between;    
+}
+.video{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 35px;
+  }
+
+
+
+
+
+
+
+  /* Conteneur de la vidéo avec effet de lumière */
+.video-container {
+  position: relative;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.2); /* Lumière autour */
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 70%);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+/* Effet au survol */
+.video-container:hover {
+  box-shadow: 0 0 30px 15px rgba(255, 255, 255, 0.5); /* Lumière plus intense */
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent 70%);
+}
+
+/* Style de la vidéo */
+.video {
+  width: 100%;
+  max-width: 800px; /* Taille maximale de la vidéo */
+  border-radius: 10px; /* Coins arrondis pour correspondre au conteneur */
+  display: block;
+}
