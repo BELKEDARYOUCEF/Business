@@ -18,7 +18,7 @@ html, body{
 #Navigation{
     height : 110px;
     width : 100%;
-    background-image: url('../Img_Video/Img/fond3.jpg');
+    background-image: url('../Img/fond3.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
     display: flex; /* Affiche les éléments horizontalement */
@@ -41,14 +41,12 @@ html, body{
     margin: 0 15px; /* Espacement entre les items */
   }
   #Midpage {
-    background-color: #181818;
     /*background-color: rgb(221, 221, 221);
     /*background-color: #f4f4f4;
     /*background-image: url('../Img_Video/Img/fondbleu.jpg');
     background-size: cover; 
-    background-repeat: no-repeat;
-    /*background: radial-gradient(circle, #140857d3, #040355);
-    /*background-color: rgb(17, 17, 118);*/
+    background-repeat: no-repeat;*/
+    background: radial-gradient(circle, #140857d3, #040355);
     margin-top: 110px; /* Décale les divisions sous la navigation */
     width: 100%;	
     display: flex; 
