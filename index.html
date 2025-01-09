@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
     <title>Document</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="main">
-        <form action="">
+        <form onsubmit="return validationForm(event)">
             <h1>Login</h1>
             <div class="textbox">
-                <input type="text" placeholder="UserName" required>
+                <input id="UserName" type="text" placeholder="UserName" required>
                 <i class='bx bxs-user'></i>
             </div>
             <div class="textbox">
-                <input type="password" placeholder="Password" required>
+                <input id="Password" type="password" placeholder="Password" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
 

@@ -158,3 +158,10 @@ button{
   border-radius: 10px; /* Coins arrondis pour correspondre au conteneur */
   display: block;
 }
+.img{
+  padding-right: 6%;
+  padding-top: 20px;
+  width: 800px;
+  height: 500px;
+  border-radius: 70px;
+}
