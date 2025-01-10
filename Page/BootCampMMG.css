@@ -139,24 +139,26 @@ button{
   display: inline-block;
   margin: 20px auto;
   padding: 10px;
-  border-radius: 10px; /* Coins arrondis */
+  border-radius: 20px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce */
   box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.2); /* Lumière autour */
   background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 70%);
   transition: box-shadow 0.3s ease, background 0.3s ease;
 }
 
-/* Effet au survol */
-.video-container:hover {
-  box-shadow: 0 0 30px 15px rgba(255, 255, 255, 0.5); /* Lumière plus intense */
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent 70%);
-}
-
 /* Style de la vidéo */
 .video {
   width: 100%;
-  max-width: 800px; /* Taille maximale de la vidéo */
-  border-radius: 10px; /* Coins arrondis pour correspondre au conteneur */
+  height: 100%;
+  height: 440px;
+  max-width: 780px; /* Taille maximale de la vidéo */
+  /*border-radius: 10px; /* Coins arrondis pour correspondre au conteneur */
   display: block;
+  border: none;
+}
+.video-container{
+   border: 5px solid #3f3fb7; /* Couleur et épaisseur de la bordure */
+   padding: 0; /* Aucun espace supplémentaire à l'intérieur */
 }
 .img{
   padding-right: 6%;
