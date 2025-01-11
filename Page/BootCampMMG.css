@@ -23,22 +23,37 @@ html, body{
     background-repeat: no-repeat;
     display: flex; /* Affiche les éléments horizontalement */
   align-items: center; /* Aligne verticalement au centre */
-  justify-content: space-between; /* Espace entre les éléments */
+  /*justify-content: space-between; /* Espace entre les éléments */
   position: fixed; /* Rend la barre collée en haut */
   top: 0; /* Place la barre tout en haut de la page */
   /*z-index: 1000; /* Assure qu'elle soit au-dessus des autres éléments */
   }
   #Navigation img {
-    margin-left: 10px; /* Espacement à gauche de l'image */
+    margin-left: 65px; /* Espacement à gauche de l'image */
   }
-  #Navigation ul {
+  #Navigation ul{
+    justify-content: center;
     list-style-type: none; /* Supprime les puces */
     display: flex; /* Aligne horizontalement */
     margin: 0;
     padding: 0;
+    flex-grow: 1;
   }
-  #Navigation ul li {
-    margin: 0 15px; /* Espacement entre les items */
+  /*#Navigation ul li {
+    margin: 0 15px; /* Espacement entre les items 
+  }*/
+  #Navigation ul{
+    list-style-type: none;
+  }
+  #Navigation a{
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+  }
+  #Navigation h1:hover{
+    color: #f55321;
+  }
+  #Navigation li:hover {
+    transform: scale(1.2);
   }
   #Midpage {
     /*background-color: rgb(221, 221, 221);
