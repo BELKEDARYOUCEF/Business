@@ -15,7 +15,7 @@ function validationForm(event){
     }
 
     if (pwd === "Business Model" && usr === "Business Model") {
-        window.location.href = "./Page/BootCampMMG.html";
+        window.location.href = "./Page/MMG.html";
     }
 
     return true;
